@@ -1,4 +1,4 @@
-package br.com.alura.forum.config.security;
+package br.com.forum.config.security;
 
 import java.io.IOException;
 
@@ -11,8 +11,8 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import br.com.alura.forum.modelo.Usuario;
-import br.com.alura.forum.repository.UsuarioRepository;
+import br.com.forum.modelo.Usuario;
+import br.com.forum.repository.UsuarioRepository;
 
 public class AutenticacaoViaTokenFilter extends OncePerRequestFilter {
 	

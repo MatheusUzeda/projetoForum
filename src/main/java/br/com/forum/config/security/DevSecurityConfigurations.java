@@ -1,4 +1,4 @@
-package br.com.alura.forum.config.security;
+package br.com.forum.config.security;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;

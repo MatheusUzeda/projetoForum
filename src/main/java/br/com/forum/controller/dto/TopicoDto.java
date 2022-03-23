@@ -1,10 +1,10 @@
-package br.com.alura.forum.controller.dto;
+package br.com.forum.controller.dto;
 
 import java.time.LocalDateTime;
 
 import org.springframework.data.domain.Page;
 
-import br.com.alura.forum.modelo.Topico;
+import br.com.forum.modelo.Topico;
 
 public class TopicoDto {
 

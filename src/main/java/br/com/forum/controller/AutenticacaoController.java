@@ -1,4 +1,4 @@
-package br.com.alura.forum.controller;
+package br.com.forum.controller;
 
 import javax.validation.Valid;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.alura.forum.config.security.TokenService;
-import br.com.alura.forum.controller.dto.TokenDto;
-import br.com.alura.forum.controller.form.LoginForm;
+import br.com.forum.config.security.TokenService;
+import br.com.forum.controller.dto.TokenDto;
+import br.com.forum.controller.form.LoginForm;
 
 @RestController
 @RequestMapping("/auth")

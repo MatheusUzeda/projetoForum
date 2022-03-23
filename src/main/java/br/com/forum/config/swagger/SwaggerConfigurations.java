@@ -1,11 +1,11 @@
-package br.com.alura.forum.config.swagger;
+package br.com.forum.config.swagger;
 
 import java.util.Arrays;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import br.com.alura.forum.modelo.Usuario;
+import br.com.forum.modelo.Usuario;
 import springfox.documentation.builders.ParameterBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;

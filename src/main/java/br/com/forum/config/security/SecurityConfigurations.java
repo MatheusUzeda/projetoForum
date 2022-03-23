@@ -1,4 +1,4 @@
-package br.com.alura.forum.config.security;
+package br.com.forum.config.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -15,7 +15,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import br.com.alura.forum.repository.UsuarioRepository;
+import br.com.forum.repository.UsuarioRepository;
 
 @EnableWebSecurity
 @Configuration

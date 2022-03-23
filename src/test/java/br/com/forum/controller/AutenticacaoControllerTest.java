@@ -1,4 +1,4 @@
-package br.com.alura.forum.controller;
+package br.com.forum.controller;
 
 import java.net.URI;
 

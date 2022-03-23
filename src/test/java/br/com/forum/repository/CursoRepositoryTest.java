@@ -1,4 +1,4 @@
-package br.com.alura.forum.repository;
+package br.com.forum.repository;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -10,7 +10,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import br.com.alura.forum.modelo.Curso;
+import br.com.forum.modelo.Curso;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

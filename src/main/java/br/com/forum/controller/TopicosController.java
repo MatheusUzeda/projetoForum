@@ -1,4 +1,4 @@
-package br.com.alura.forum.controller;
+package br.com.forum.controller;
 
 import java.net.URI;
 import java.util.Optional;
@@ -25,13 +25,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import br.com.alura.forum.controller.dto.DetalhesDoTopicoDto;
-import br.com.alura.forum.controller.dto.TopicoDto;
-import br.com.alura.forum.controller.form.AtualizacaoTopicoForm;
-import br.com.alura.forum.controller.form.TopicoForm;
-import br.com.alura.forum.modelo.Topico;
-import br.com.alura.forum.repository.CursoRepository;
-import br.com.alura.forum.repository.TopicoRepository;
+import br.com.forum.controller.dto.DetalhesDoTopicoDto;
+import br.com.forum.controller.dto.TopicoDto;
+import br.com.forum.controller.form.AtualizacaoTopicoForm;
+import br.com.forum.controller.form.TopicoForm;
+import br.com.forum.modelo.Topico;
+import br.com.forum.repository.CursoRepository;
+import br.com.forum.repository.TopicoRepository;
 
 @RestController
 @RequestMapping("/topicos")
